@@ -1,0 +1,93 @@
+@media (min-width:320px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        height: auto;
+        width: 320px;
+        background-color: #0C151D;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .profile{
+        margin: 0px auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .profile #img{
+        margin: 30px auto;
+        height: 124px;
+        width: 124px;
+        border-radius: 100%;
+        background-color: gray;
+    }
+    .profile h1{
+        padding: 10px 0px;
+        color: #F1F2F4;
+        text-align: center;
+    }
+    .profile h5{
+        font-size: 16px;
+        font-weight: 600;
+        color: #A3ABB2;
+        text-align: center;
+    }
+    .profile .social{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .dados{
+        margin: 15px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dados .blocos{
+        color: #A3ABB2;
+        text-align: center;
+        font-size: 15px;
+        width: 94px;
+    }
+    .buttons{
+        color: #A3ABB2;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .buttons #dow{
+        text-decoration: underline;
+        color: #3D3D3D;
+        background-color: #FFE071;
+    }
+    .button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #171F26;
+    }
+    .projects{
+        margin: 20px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .imagens{
+        border-radius: 20px;
+        margin: 0px auto 20px auto;
+        height: 200px;
+        width: 300px;
+        background-color: gray;
+    }
+    .footer{
+        margin: 0px auto;
+        padding: 20px;
+    }
+    .footer h6{
+    font-size: 12px;
+    color: white;
+    font-weight: revert;
+    font-weight: 700;
+    }
+}

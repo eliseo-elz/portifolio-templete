@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px auto;
+    font-family: sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+
+#logos{
+    height: 24px;
+    width: 24px;    
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #3D3D3D;
+}
+a:visited{
+    color: #3D3D3D;
+}
+a:hover{
+    color: #3D3D3D;
+}
+a:active{
+    color: #3D3D3D;
+}
